@@ -59,6 +59,10 @@ body{
     text-decoration: none;
 }
 
+.header-li:hover{
+    font-weight: bold;
+}
+
 a{
     text-decoration: none;
     color: #2B292D;
@@ -228,6 +232,7 @@ a{
 
 .features{
     max-width: 1440px;
+    padding : 1px;
     margin: 0 auto;
 }
 
@@ -348,13 +353,13 @@ a{
         opacity: 1;
     }
     25%{
-        opacity: 0.6;
+        opacity: 0.8;
     }
     50%{
-        opacity: 0.2;
+        opacity: 0.6;
     }
     75%{
-        opacity: 0.6;
+        opacity: 0.8;
     }
     100%{
         opacity: 1;
@@ -415,7 +420,42 @@ a{
     padding: 30px;
     border-bottom: solid 5px;
     border-bottom-color:  #3040C4;
+    animation-name: manage-post;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-timing-function: linear;
 }
+
+@keyframes manage-post{
+    0%{
+        background-color: #ffffff;
+    }
+    12.5%{
+        background-color: #aee9f8;
+    }
+    25%{
+        background-color: #7d9df7;
+    }
+    37.5%{
+        background-color: #4d59fa;
+    }
+    50%{
+        background-color: #4652f1;
+    }
+    62.5%{
+        background-color: #4d59fa;
+    }
+    75%{
+        background-color: #7d9df7;
+    }
+    87.5%{
+        background-color: #aee9f8;
+    }100%{
+        background-color: #ffffff;
+    }
+}
+
 
 .manage-posttext{
     max-width: 460px;
@@ -620,6 +660,7 @@ a{
 
 
 .trusted{
+    padding: 1px;
     margin: 0 auto;
     position: relative;
 }
@@ -635,8 +676,7 @@ a{
     justify-content: space-between;
     margin: 0 auto;
     margin-top: 50px;
-    max-width: 1030px;
-    background-color: #FFFFFF;
+    max-width: 1050px;
 }
 
 .trust-content{
@@ -806,6 +846,7 @@ a{
 
 .all{
     margin: 0 auto;
+    padding: 1px;
 }
 
 .all-text{
