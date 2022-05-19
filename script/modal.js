@@ -45,3 +45,8 @@ $('#home').on('click', function(e){
     e.preventDefault();
     $('html, body').animate({scrollTop: $('#trusted').offset().top}, 1000)
 })
+
+$('#stories').on('click', function(e){
+    e.preventDefault();
+    $('html, body').animate({scrollTop: $('#all').offset().top}, 1000)
+})
