@@ -21,6 +21,4 @@ $('.busy').parallax({imageSrc: './img/busy/37479-lampochka_programmist.jpg'});
 
 $('.trusted').parallax({imageSrc: './img/37440-shar_rastitelnost_provod.jpg'});
 
-$('.about').parallax({imageSrc: './img/24550-grafika_mir_transport.jpg'});
-
 $('.all').parallax({imageSrc: './img/all.png/54178-serfing_deushka_doska_na_vode_vid_sverhu_vysota.jpg'});
